@@ -25,7 +25,7 @@ else:
 # 2. リポジトリ名の初期値設定（ご指定の rioki3/Surveycad を設定済み）
 REPO_NAME = st.sidebar.text_input(
     "Repository", 
-    value="rioki3/Surveycad", 
+    value="rioki3/surveycad", 
     placeholder="ユーザー名/リポジトリ名"
 )
 BRANCH_NAME = st.sidebar.text_input("Branch", value="main")
