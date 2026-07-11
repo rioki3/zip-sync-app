@@ -15,7 +15,7 @@ st.sidebar.header("🔑 設定情報")
 ACCESS_TOKEN = st.sidebar.text_input(
     "GitHub Access Token", type="password", help="ghp_から始まるトークン"
 )
-REPO_NAME = st.sidebar.text_input("Repository", placeholder="ユーザー名/リポジトリ名")
+REPO_NAME = st.sidebar.text_input("Repository", value="rioki3/Surveycad")
 BRANCH_NAME = st.sidebar.text_input("Branch", value="main")
 
 # --- メイン画面：ファイルアップロード ---
